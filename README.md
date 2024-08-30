@@ -1,5 +1,5 @@
 # Otonom Hazine Avcisi
-Otonom Hazine Avcısı projesinde, otonom hareket eden bir karakterin, içerisinde çeşitli hazineler ve engeller bulunan bir harita üzerindeki hazineleri topladığı bir oyun tasarladık. Oyunun teması arısı kış yarısı yaz olacak şekilde ayarlandı. Nesneler hiyerarşik bir düzende yerleştirilmektedir. Oyunda amaç, karakterin tüm hazineleri en kısa sürede toplamasını sağlamaktır. Bunun için en kısa yol algoritmaları kullandık.
+Otonom Hazine Avcısı projesinde, otonom hareket eden bir karakterin, içerisinde çeşitli hazineler ve engeller bulunan bir harita üzerindeki hazineleri topladığı bir oyun tasarladık. Oyunun teması yarısı kış yarısı yaz olacak şekilde ayarlandı. Nesneler hiyerarşik bir düzende yerleştirilmektedir. Oyunda amaç, karakterin tüm hazineleri en kısa sürede toplamasını sağlamaktır. Bunun için en kısa yol algoritmaları kullandık.
 
 C# dilinde yazdığımız bu projeyi Visual Studio Windows Form’da geliştirdik. Projenin isterlerine göre karakterimiz ve diğer tüm nesneler harita her yeni oluşturulduğunda random yerlere atanmaktadır. Oyun başlatıldığında karakterimiz en kısa yolu kullanarak sandıkları toplamaktadır. Her sandık toplandığında listBox1 de konumları yazdırılmaktadır. Bütün sandıklar toplandığında oyun sonlanmaktadır. 
 Projenin ana isterleri şunlardır: 
